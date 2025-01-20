@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PP$1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">AitiMart</div>
+        <nav>
+            <span class="menu-toggle">&#9776;</span>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Group Classes</a></li>
+                        <li><a href="#">Nutrition Plans</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to AitiMart!</h1>
+        <p> "Take control of your financial future with confidence! At <b>AitiMart</b> Investments, we empower you to start your journey towards financial growth with ease and reliability. Whether you’re a beginner or an experienced investor, our user-friendly platform offers personalized tools, expert guidance, and secure features to help you make informed decisions. Start small, dream big, and watch your investments grow. Join us today and turn your aspirations into reality—your financial success is just a click away!"</p>
+        <a href="signup.html" class="cta"><b>GET STARTED</b></a>
+
+        
+    <div class="footer">
+        <p>&copy; 2025 AitiMart. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+    </div>
+    </main>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
